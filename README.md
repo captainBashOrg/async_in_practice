@@ -2,7 +2,7 @@ async def start_strongman(name, power):
     print(f'Силач {name} начал соревнования. Его сила {power}')
     for i in range(1, 6):
         print(f'Силач {name} поднял {i}')
-        await asyncio.sleep (10/power) # имитация задержки
+        await asyncio.sleep (1/power) # имитация задержки
     print(f'Силач {name} закончил соревнования.')
 
 
